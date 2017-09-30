@@ -15,7 +15,7 @@ public class exerc_10 {
         }
         maior = mat[0][0];
         System.out.println("=======================");
-        for(int i = 0; i < 2; i++){ //Lendo a matriz
+        for(int i = 0; i < 2; i++){ //Verificando quem é o maior elemento e sua posiço na matriz.
             for(int j = 0; j < 2; j++){
                 if(mat[i][j] > maior){
                     maior = mat[i][j];
